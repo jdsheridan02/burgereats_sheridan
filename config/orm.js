@@ -13,13 +13,13 @@ function printQuestionMarks(num) {
 }
 
 // Converts object into SQL syntax
-function objToSql(data) {
+function objToSql(ob) {
     let arr = [];
 
     // loop through the keys and push the key/value as a string into array
-    for (let key in data) {
-        let value = data[key];
-        if (Object.hasOwnProperty.call(data, key)) {
+    for (let key in ob) {
+        let value = ob[key];
+        if (Object.hasOwnProperty.call(ob, key)) {
 
             // adding parantheses to string that has spaces
             if (typeof value === "string" && value.indexOf(" ") >= 0) {
