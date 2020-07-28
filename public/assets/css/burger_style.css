@@ -1,6 +1,5 @@
 body {
     font-family: "Permanent Marker", cursive;
-    background-image: url("../images/background_burger-01.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -36,10 +35,6 @@ body {
   }
   
   .panel {
-    background-image: url("../images/chalkboard.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
     font-size: 20px;
     font-family: "Roboto", sans-serif;
     color: white;
@@ -48,10 +43,6 @@ body {
   }
   
   .panel-heading {
-    background-image: url("../images/chalkboard.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
     color: white;
     font-family: "Shadows Into Light", cursive;
   }
