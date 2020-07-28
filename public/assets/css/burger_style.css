@@ -1,0 +1,66 @@
+body {
+    font-family: "Permanent Marker", cursive;
+    background-image: url("../images/background_burger-01.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 30px;
+  }
+  
+  h1 {
+    font-size: 90px;
+    color: red;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 30px;
+    color: white;
+    font-family: "Shadows Into Light", cursive;
+  }
+  
+  img {
+    vertical-align: middle;
+    padding-top: 40px;
+  }
+  
+  .jumbotron {
+    /* padding-bottom: 0px;
+      margin-bottom: 0px;
+      font-size: 52px; */
+    text-align: center;
+  }
+  
+  .intro {
+    width: 400px;
+  }
+  
+  .panel {
+    background-image: url("../images/chalkboard.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-family: "Shadows Into Light", cursive;
+    /* background: rgba(255, 255, 255, 0.6); */
+  }
+  
+  .panel-heading {
+    background-image: url("../images/chalkboard.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: "Shadows Into Light", cursive;
+  }
+  .btn {
+    align-content: center;
+    text-align: center;
+  }
+  
+  .form-group {
+    align-content: center;
+    justify-content: center;
+  }
