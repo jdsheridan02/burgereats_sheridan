@@ -6,7 +6,7 @@ const express = require("express"),
 // Create all the routes and set up logic within those routes where required.
 router.get("/", function (req, res) {
     burger.all(function (data) {
-        var handlebarObject = {
+        let handlebarObject = {
             burger: data
         };
         console.log(handlebarObject);
@@ -25,7 +25,7 @@ router.post("/", function (req, res) {
 });
 
 router.put("/:id", function (req, res) {
-    var condition = "id = " + req.params.id;
+    let condition = "id = " + req.params.id;
 
     console.log("condition", condition);
 
